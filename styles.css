@@ -1,0 +1,27 @@
+html, body {
+  font-family: 'EB Garamond', serif;
+  /* font-family: Georgia, serif; */
+  color: white;
+  /* scroll-behavior: smooth; */
+  background-color: black;
+}
+
+.center-block {
+  display: flex;
+  justify-content: center;
+}
+
+.narrow {
+  width: 67vw;
+
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 4vw;
+  margin-top: 15vh;
+}
+
+p {
+  font-weight: 200;
+}
