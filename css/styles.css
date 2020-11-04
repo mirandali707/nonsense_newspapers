@@ -1,0 +1,62 @@
+html, body {
+  font-family: 'EB Garamond', serif;
+  /* font-family: Georgia, serif; */
+  color: #cccccc;
+  /* scroll-behavior: smooth; */
+  background-color: black;
+  font-size: 20px;
+}
+
+.center-block {
+  display: flex;
+  justify-content: center;
+}
+
+.narrow {
+  width: calc(100% - 40px);
+  max-width: 600px;
+
+}
+
+h1 {
+  font-weight: 500;
+  margin-top: 6vh;
+  margin-bottom: 24px;
+  font-size: 2.75rem;
+  line-height: 3.125rem;
+  letter-spacing: 1px;
+
+}
+
+strong {
+  font-weight: 500;
+  color: white;
+}
+
+p {
+  font-weight: 200;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.firstcharacter {
+  color: white;
+  float: left;
+  /* font-family: Georgia; */
+  font-size: 47px;
+  /* line-height: 60px; */
+
+  padding-right: 5px;
+  /* padding-left: 3px; */
+  margin-top: -5px;
+  margin-bottom: -5px;
+}
+
+.right-image {
+  float: right;
+  height: 200px;
+  margin: 4px;
+}
