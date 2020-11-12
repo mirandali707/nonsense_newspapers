@@ -5,6 +5,7 @@
 body {
   display: flex;
 }
+
 .page {
   width: 50vw;
   /* height: 100vh; */
@@ -17,6 +18,10 @@ body {
   flex-direction: column;
   justify-content: center;
   min-height: 100vh;
+}
+
+.right {
+  text-align: center;
 }
 
 #edit {
@@ -75,19 +80,4 @@ body {
 
 .zine-text a {
   margin-top: 5px;
-}
-
-.buttons {
-  margin-top: -5px;
-}
-
-button {
-  border: none;
-  color: white;
-  background-color: black;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  cursor: pointer;
 }

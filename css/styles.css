@@ -60,3 +60,18 @@ a {
   height: 200px;
   margin: 4px;
 }
+
+.buttons {
+  margin-top: -5px;
+}
+
+button {
+  border: none;
+  color: white;
+  background-color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
