@@ -47,9 +47,9 @@ function update_page(page_num) {
   // updates
   let page = zine_pages_dict[page_num];
   page_number.innerText = page_num;
-  attrib.innerHTML = page['attrib_text'];
-  gen.setAttribute('src', page['gen_href']);
   edit.setAttribute('src', page['edit_href']);
+  gen.setAttribute('src', page['gen_href']);
+  attrib.innerHTML = page['attrib_text'];
   edit.setAttribute('alt', page['alt_text']);
 
   // unhide
@@ -61,31 +61,31 @@ function update_page(page_num) {
   // gen.style.opacity = 1;
 
 }
-
-function fade_out(image){
-  var fade_effect = setInterval(function(){
-    if (!image.style.opacity) {
-      image.style.opacity = 1;
-    }
-    if (image.style.opacity > 0) {
-      image.style.opacity -= 0.1;
-    }
-    else {
-      clearInterval(fade_effect);
-    }
-  }, 50);
-}
-
-function fade_in(image){
-  var fade_effect = setInterval(function(){
-    if (!image.style.opacity) {
-      image.style.opacity = 0;
-    }
-    if (image.style.opacity < 1) {
-      image.style.opacity += 0.1;
-    }
-    else {
-      clearInterval(fade_effect);
-    }
-  }, 50);
-}
+//
+// function fade_out(image){
+//   var fade_effect = setInterval(function(){
+//     if (!image.style.opacity) {
+//       image.style.opacity = 1;
+//     }
+//     if (image.style.opacity > 0) {
+//       image.style.opacity -= 0.1;
+//     }
+//     else {
+//       clearInterval(fade_effect);
+//     }
+//   }, 50);
+// }
+//
+// function fade_in(image){
+//   var fade_effect = setInterval(function(){
+//     if (!image.style.opacity) {
+//       image.style.opacity = 0;
+//     }
+//     if (image.style.opacity < 1) {
+//       image.style.opacity += 0.1;
+//     }
+//     else {
+//       clearInterval(fade_effect);
+//     }
+//   }, 50);
+// }
