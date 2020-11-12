@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+#gen {
+  height: 100vh;
+}
+
+#clicky-clicky-container {
+  position: fixed;
+  right: 25px;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#random {
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+}
