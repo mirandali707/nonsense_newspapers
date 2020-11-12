@@ -8,25 +8,27 @@
     <link href="css/styles.css" rel="stylesheet">
     <link href="css/zine.css" rel="stylesheet">
     <link rel="shortcut icon" type="image/jpg" href="img/gen_1.jpg">
+    <script src="js/zine.js" async></script>
+    <!-- <script src="js/zine_pages.js" async></script> -->
   </head>
   <body>
     <div class="left page">
-      <img src="img/marcus-wallis-RONXmu0UU4s-unsplash.jpg" alt="man with newspaper">
-      <span>Original photo by <a href="https://unsplash.com/@marcus_wallis?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Marcus Wallis</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+      <img id="edit" src="img/zine_imgs/1_anders-nord.png" alt="old woman in glasses and a beret sitting at a table, reading a fake newspaper">
+      <span id="attrib">Original photo by <a href="https://unsplash.com/@annoand?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Anders Nord</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
     </div>
     <div class="right page">
       <div class="zine-text-container">
         <div class="zine-text">
-          <h2>1/10</h2>
+          <h2 id="page_number">1/10</h2>
           <div class="buttons">
-            <button type="button">←</button>
-            <button type="button">→</button>
+            <button id="previous-page" type="button">←</button>
+            <button id="next-page" type="button">→</button>
           </div>
           <a href="index.html">(home)</a>
       </div>
 
       </div>
-      <img src="img/sn83045298_1963-12-20_ed-1_seq-1.jpg" alt="generated newspaper">
+      <img id="gen" src="img/zine_imgs/1_gen_38.jpg" alt="generated newspaper">
 
     </div>
   </body>
