@@ -1,4 +1,4 @@
-{
+export const zine_pages_dict = {
     "1": {
         "page_num": 1,
         "gen_href": "img/zine_imgs/1_gen_38.jpg",
