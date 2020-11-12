@@ -34,7 +34,7 @@ function update_page(page_num) {
   console.log('PAGE:');
   console.log(page_num);
   console.log(zine_pages_dict[page_num]);
-  page = zine_pages_dict[page_num];
+  let page = zine_pages_dict[page_num];
   attrib.innerHTML = page['attrib_text'];
   gen.setAttribute('src', page['gen_href']);
   page_number.innerText = page_num;
