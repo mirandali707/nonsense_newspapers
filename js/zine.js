@@ -3,8 +3,9 @@ const edit = document.querySelector('#edit'),
   gen = document.querySelector('#gen'),
   page_number = document.querySelector('#page_number'),
   prev_page_button = document.querySelector('#previous-page'),
-  next_page_button = document.querySelector('#next-page'),
-  curr_page = 1;
+  next_page_button = document.querySelector('#next-page');
+
+let curr_page = 1;
 
 // const zine_pages_dict = readJSON('zine_pages.js');
 // console.log(zine_pages_dict);
