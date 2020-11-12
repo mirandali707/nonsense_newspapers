@@ -22,6 +22,10 @@ body {
 #edit {
   width: 50vw;
   /* height: 100%; */
+  opacity: 0;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 #attrib {
@@ -29,6 +33,11 @@ body {
   /* bottom: 25px; */
   left: 15px;
   font-size: 15px;
+
+  opacity: 0;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 #gen {
@@ -36,6 +45,26 @@ body {
   bottom: 0;
   right: inherit;
   width: 42vw;
+
+  opacity: 0;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+/* body {
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+} */
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }
 
 .zine-text-container {

@@ -39,9 +39,9 @@ function update_page(page_num) {
   // fade_out(attrib);
   // fade_out(edit);
   // fade_out(gen);
-  attrib.style.opacity = 0;
-  edit.style.opacity = 0;
-  gen.style.opacity = 0;
+  // attrib.style.opacity = 0;
+  // edit.style.opacity = 0;
+  // gen.style.opacity = 0;
 
 
   // updates
@@ -56,9 +56,9 @@ function update_page(page_num) {
   // fade_in(edit);
   // fade_in(gen);
   // fade_in(attrib);
-  attrib.style.opacity = 1;
-  edit.style.opacity = 1;
-  gen.style.opacity = 1;
+  // attrib.style.opacity = 1;
+  // edit.style.opacity = 1;
+  // gen.style.opacity = 1;
 
 }
 
