@@ -10,7 +10,7 @@ let gen_num = 1;
 
 prev_button.addEventListener('click', previous_page);
 next_button.addEventListener('click', next_page);
-random.addEventListener('click', random);
+random_button.addEventListener('click', random);
 
 function previous_page() {
   gen_num = (gen_num == 1) ? total_gens : (gen_num - 1) % total_gens;
