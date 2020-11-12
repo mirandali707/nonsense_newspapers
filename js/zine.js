@@ -14,5 +14,5 @@ const edit = document.querySelector('#edit'),
 // request.send(null)
 // var zine_pages_dict = JSON.parse(request.responseText);
 
-import {zine_pages_dict} from 'zine_pages.js'
+import {zine_pages_dict} from 'zine_pages.js';
 console.log(zine_pages_dict);
