@@ -34,10 +34,52 @@ function update_page(page_num) {
   console.log('PAGE:');
   console.log(page_num);
   console.log(zine_pages_dict[page_num]);
+
+  //fade out
+  fade_out(attrib);
+  fade_out(edit);
+  fade_out(gen);
+
+
+  // updates
   let page = zine_pages_dict[page_num];
+  page_number.innerText = page_num;
   attrib.innerHTML = page['attrib_text'];
   gen.setAttribute('src', page['gen_href']);
-  page_number.innerText = page_num;
   edit.setAttribute('src', page['edit_href']);
   edit.setAttribute('alt', page['alt_text']);
+
+  // fade in
+  fade_in(edit);
+  fade_in(gen);
+  fade_in(attrib);
+
+}
+
+function fade_out(image){
+  var fade_effect = setInterval(function(){
+    if (!image.style.opacity) {
+      image.style.opacity = 1;
+    }
+    if (image.style.opacity > 0) {
+      image.style.opacity -= 0.1;
+    }
+    else {
+      clearInterval(fade_effect);
+    }
+  }, 50);
+}
+
+function fade_in(image){
+  var fade_effect = setInterval(function(){
+    if (!image.style.opacity) {
+      image.style.opacity = 0;
+    }
+    if (image.style.opacity < 1) {
+      image.style.opacity += 0.1;
+    }
+    else {
+      clearInterval(fade_effect);
+    }
+  }, 50);
 }
